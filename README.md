@@ -1,4 +1,4 @@
-# 🛒 E-Commerce System – Fawry Quantum Internship Challenge
+# 🛒 E-Commerce System 
 
 ## 📌 Project Overview
 
