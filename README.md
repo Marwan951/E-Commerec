@@ -95,7 +95,7 @@ E-Commerec/
 ChechOut.checkout(customer,cart);
 
 ------------------------------------------------------------------------------------------
-OutPut
+Output
 
 ** Shipment notice **
 2x SCard         40.0 g
