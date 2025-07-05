@@ -14,15 +14,15 @@ public class checkout_details {
          throw new IllegalAccessException("Cart is empty");
      }
      //one product is out of stock or expired.
-     /*for (Item i: cart.items) {
+     for (Item i: cart.items) {
 
-         if (! i.checkAvailability(i.quantity,100)){
+         if (! i.checkAvailability(i.quantity,i.p.getQuantity())){
              throw new IllegalAccessException(i.p.getName() + " is out of stock");
          }
-         if(! i.p.isExpired()){
+        /* if(! i.p.isExpired()){
              throw new IllegalAccessException(i.p.getName() + " is expired");
-         }
-     }*/
+         }*/
+     }
      //get total pay + shipping cost
      double Total = cart.getTPrice();
      double shipping_cost = 30.0;

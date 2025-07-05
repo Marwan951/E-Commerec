@@ -24,7 +24,7 @@ public class Main {
         //cart
         Cart cart = new Cart();
         cart.add(new Item(cheese,3));
-        cart.add(new Item(MobScratchCard,2));
+        cart.add(new Item(MobScratchCard,100));
         cart.add(new Item(TV,3));
 
         shipping_service shipping_service = new shipping_service();

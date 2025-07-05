@@ -27,7 +27,7 @@ public  class product {
         this.price = price;
     }
     public int getQuantity() {
-        return this.quantity;
+        return quantity;
     }
     public void setQuantity(int quantity) {
         this.quantity = quantity;
