@@ -18,7 +18,7 @@ The system focuses on applying key **OOP principles** such as:
   - Products have a name, price, and available quantity.
   - Some products are **expirable** (e.g., Cheese, Biscuits).
   - Some products are **shippable** (e.g., Cheese, TV) and require a weight attribute.
-  - Some products are **Expirable and shippable** (e.g cheese)
+  - Some products are **expirable and shippable** (e.g cheese)
 
 - **Customer Interaction**
   - Customers can add items to their cart with a specific quantity.
