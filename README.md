@@ -58,8 +58,8 @@ E-Commerec/
 │   │
 │   ├── Products/
 │   │   ├── Exp_ship.java           # Expirable + Shippable product
-│   │   ├── Expirable.java          # Interface
-│   │   ├── Shippable.java          # Interface
+│   │   ├── Expirable.java          # Expirable product
+│   │   ├── Shippable.java          # Shippable product
 │   │   ├── product.java            # Abstract base class
 │   │
 │   ├── Services/
@@ -95,7 +95,7 @@ E-Commerec/
 //checkout
 ChechOut.checkout(customer,cart);
 
----
+---------
 
 '''bash
 ** Shipment notice **
