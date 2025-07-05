@@ -49,7 +49,6 @@ The system focuses on applying key **OOP principles** such as:
 - Swing (for GUI version, if applicable)
 
 ## 📦 Project Structure
-```bash
 
 E-Commerec/
 ├── src/
@@ -78,7 +77,7 @@ E-Commerec/
 
 
 ## 🧪 Example Usage
-```java
+```Java
   Customer customer = new Customer("Marwan",40000);
   Cart cart = new Cart();
   shipping_service shipping_service = new shipping_service();
@@ -95,9 +94,9 @@ E-Commerec/
 //checkout
 ChechOut.checkout(customer,cart);
 
----------
+------------------------------------------------------------------------------------------
+OutPut
 
-'''bash
 ** Shipment notice **
 2x SCard         40.0 g
 3x Samsung       6000.0 g
