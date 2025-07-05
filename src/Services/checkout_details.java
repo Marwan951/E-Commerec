@@ -19,9 +19,11 @@ public class checkout_details {
          if (! i.checkAvailability(i.quantity,i.p.getQuantity())){
              throw new IllegalAccessException(i.p.getName() + " is out of stock");
          }
-        /* if(! i.p.isExpired()){
-             throw new IllegalAccessException(i.p.getName() + " is expired");
-         }*/
+         if(i.p instanceof Expirable || i.p instanceof Exp_ship) {
+             if (i.p.isExpired(((Expirable) i.p).expiry_date)) {
+                 throw new IllegalAccessException(i.p.getName() + " is expired");
+             }
+         }
      }
      //get total pay + shipping cost
      double Total = cart.getTPrice();

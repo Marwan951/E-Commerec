@@ -33,7 +33,7 @@ public  class product {
         this.quantity = quantity;
     }
 
-    public boolean isExpired() {
+    public boolean isExpired(String s) {
         return false;
     }
     public boolean is_available(int required_quantity){
