@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This Java-based e-commerce system was developed to manage products. It showcases a modular, object-oriented design that simulates a basic shopping experience including product management, cart operations, checkout processing, and shipping logistics.
+This Java-based e-commerce system was developed to manage e-commerce process. It showcases a modular, object-oriented design that simulates a basic shopping experience including product management, cart operations, checkout processing, and shipping logistics.
 
 The system focuses on applying key **OOP principles** such as:
 - **Inheritance**
