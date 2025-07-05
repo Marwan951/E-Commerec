@@ -19,7 +19,7 @@ public class Main {
         product laptop = new product("Lenovo",50000,50 );
 
         //Customer
-        Customer customer = new Customer("Marwan",10);
+        Customer customer = new Customer("Marwan",40000);
 
         //cart
         Cart cart = new Cart();

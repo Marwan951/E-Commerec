@@ -42,7 +42,7 @@ public class checkout_details {
         }
         System.out.println("----------------------");
         System.out.println("Subtotal " + Total);
-        System.out.println("Shipping " + 30);
+        System.out.println("Shipping " + shipping_cost);
         System.out.println("Amount " + To_Pay);
  }
     public void printReceipt(Cart cart, double subtotal, double shipping, double total){
