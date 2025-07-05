@@ -1,4 +1,4 @@
-# 🛒 E-Commerce System 
+# 🛒 E-Commerce System
 
 ## 📌 Project Overview
 
@@ -41,9 +41,43 @@ The system focuses on applying key **OOP principles** such as:
     - `double getWeight()`
 
 ---
+## 📌 Technologies Used
+
+- Java (JDK 24+)
+- IntelliJ IDEA Community Edition
+- OOP Concepts (Inheritance, Polymorphism, Interfaces)
+- Swing (for GUI version, if applicable)
+
+## 📦 Project Structure
+```bash
+
+E-Commerec/
+├── src/
+│   ├── Interfaces/
+│   │   ├── shipping.java
+│   │
+│   ├── Products/
+│   │   ├── Exp_ship.java           # Expirable + Shippable product
+│   │   ├── Expirable.java          # Interface
+│   │   ├── Shippable.java          # Interface
+│   │   ├── product.java            # Abstract base class
+│   │
+│   ├── Services/
+│   │   ├── checkout_details.java   # Handles the checkout process
+│   │   ├── shipping_service.java   # Handles shipping logic
+│   │
+│   ├── User/
+│   │   ├── Cart.java               # Shopping cart
+│   │   ├── Customer.java           # Customer info and balance
+│   │   ├── Item.java               # Item in the cart
+│
+│   ├── Main.java                   # Entry point of the application
+│
+├── E-commerce.iml                  # IntelliJ project file
+├── README.md                       # Project documentation
+
 
 ## 🧪 Example Usage
-
 ```java
   Customer customer = new Customer("Marwan",40000);
   Cart cart = new Cart();
@@ -61,18 +95,24 @@ The system focuses on applying key **OOP principles** such as:
 //checkout
 ChechOut.checkout(customer,cart);
 
-## E-Commerec
-markdown
+---
+
+'''bash
 ** Shipment notice **
 2x SCard         40.0 g
-3x Samsung         6000.0 g
+3x Samsung       6000.0 g
 Total package weight 6040.0 g 
 ================================
+
 ** Checkout receipt **
-3x Veta 60.0
-2x SCard 80.0
-3x Samsung 30000.0
+3x Veta   60.0
+2x SCard   80.0
+3x Samsung  30000.0
 ----------------------
-Subtotal 30140.0
-Shipping 30
-Amount 30170.0
+Subtotal  30140.0
+Shipping  30.0
+Amount    30170.0
+
+
+
+
