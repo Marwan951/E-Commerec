@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/faa2bc8f-5aa2-4b10-98ec-d8df3dc919c8
 - **Checkout Process**
   - Validates:
     - Cart is not empty.
-    - All items are in stock and not expired. (In progress)
+    - All items are in stock and not expired.
     - Customer has sufficient balance.
   - Computes:
     - Subtotal (sum of item prices × quantities)
