@@ -7,10 +7,14 @@ This Java-based e-commerce system was developed to manage e-commerce process. It
 The system focuses on applying key **OOP principles** such as:
 - **Inheritance**
 - **Interfaces**
-- **Abstract Classes**
 - **Polymorphism**
 
 ---
+## 📽️ Demo 
+
+https://github.com/user-attachments/assets/faa2bc8f-5aa2-4b10-98ec-d8df3dc919c8
+
+
 
 ## ✅ Features
 
@@ -92,10 +96,10 @@ E-Commerec/
 │   │   ├── shipping.java
 │   │
 │   ├── Products/
-│   │   ├── Exp_ship.java           # Expirable + Shippable product
+│   │   ├── Exp_ship.java           # (Expirable + Shippable) product
 │   │   ├── Expirable.java          # Expirable product
 │   │   ├── Shippable.java          # Shippable product
-│   │   ├── product.java            # Abstract base class
+│   │   ├── product.java            # Base class
 │   │
 │   ├── Services/
 │   │   ├── checkout_details.java   # Handles the checkout process
