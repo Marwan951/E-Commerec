@@ -28,9 +28,10 @@ public class checkout_details {
      //get total pay + shipping cost
      double Total = cart.getTPrice();
      double shipping_cost = 30.0;
-     double To_Pay = 0.0;
+     double To_Pay = Total;
      //shipping cost is 10$, if it's requested
-     if (! cart.shippableItems().isEmpty()) {
+     boolean ship = ( ! cart.shippableItems().isEmpty() || ! cart.ExpShipItems().isEmpty());
+        if (ship) {
          To_Pay = Total + shipping_cost;
      }
 
@@ -38,18 +39,17 @@ public class checkout_details {
      customer.pay(customer,To_Pay);
 
      //print receipt
+        printReceipt(cart,Total,shipping_cost,To_Pay,ship);
+ }
+    public void printReceipt(Cart cart, double subtotal, double shipping, double total, boolean ship){
+
         System.out.println("** Checkout receipt **");
         for (Item item : cart.getItems()) {
             System.out.println(item.quantity + "x " + item.p.getName() + " " + (item.quantity * item.p.getPrice()));
         }
         System.out.println("----------------------");
-        System.out.println("Subtotal " + Total);
-        System.out.println("Shipping " + shipping_cost);
-        System.out.println("Amount " + To_Pay);
- }
-    public void printReceipt(Cart cart, double subtotal, double shipping, double total){
-        System.out.println();
-        System.out.println("======================");
-        System.out.println("Checkout");
+        System.out.println("Subtotal " + subtotal);
+        if(ship) System.out.println("Shipping " + shipping);
+        System.out.println("Amount " + total);
     }
 }

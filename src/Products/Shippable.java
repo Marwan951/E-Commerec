@@ -3,7 +3,7 @@ package Products;
 import Interfaces.shipping;
 
 public class Shippable extends product implements shipping {
-    double weight;
+    public double weight;
 
     public Shippable(String name, double price, int quantity, double weight) {
         super(name, price, quantity);

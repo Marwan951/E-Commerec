@@ -4,6 +4,10 @@ public class Customer {
     protected String name;
     private double balance;
 
+    public String getName() {
+        return name;
+    }
+
     public double getBalance() {
         return balance;
     }
