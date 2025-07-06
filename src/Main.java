@@ -22,19 +22,20 @@ public class Main {
 
 
         //Customer
-        Customer customer = new Customer("Marwan Salah",40000);
+        Customer customer = new Customer("Marwan Salah",50000);
+        Cart cart = new Cart();
+        shipping_service shipping_service = new shipping_service();
+        checkout_details ChechOut = new checkout_details();
 
         //cart
-        Cart cart = new Cart();
         cart.add(new Item(cheese,3));
         cart.add(new Item(MobScratchCard,2));
         cart.add(new Item(TV,3));
-       //cart.add(new Item(Biscuits,3));
 
-        shipping_service shipping_service = new shipping_service();
+        //Ship
         shipping_service.ship(cart);
 
-        checkout_details ChechOut = new checkout_details();
+        //Checkout
         ChechOut.checkout(customer,cart);
 
 
