@@ -1,6 +1,6 @@
-# 🛒 E-Commerce System
+## E-Commerce System
 
-## 📌 Project Overview
+## Project Overview
 
 This Java-based e-commerce system was developed to manage e-commerce process. It showcases a modular, object-oriented design that simulates a basic shopping experience including product management, cart operations, checkout processing, and shipping logistics.
 
@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/faa2bc8f-5aa2-4b10-98ec-d8df3dc919c8
 
 
 
-## ✅ Features
+## Features
 
 - **Product Definition**
   - Products have a name, price, and available quantity.
